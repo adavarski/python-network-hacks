@@ -68,8 +68,6 @@ $ pip3 install wifi
 ### bluetooth, etc.
 ...
 
-### pip howto
-
 ### Adittional packages, not related to python
 $ sudo apt install ettercap-text-only tcpdump wireshark //etc.
  - ettercap for arp spoofing, sniffing, man-in-the-middle etc.
