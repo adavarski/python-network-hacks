@@ -60,6 +60,9 @@ $ pip3 install mitmproxy
 
 ### wifi 
 $ sudo apt-get install -y aircrack-ng
+You may need to deactivate the service NetworkManager to be able to manipulate the
+interface.
+$ systemctl stop NetworkManager
 $ sudo airmon-ng start wlp4s0
 $ ip a s|grep mon
 48: wlp4s0mon: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
