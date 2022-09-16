@@ -3,8 +3,8 @@
 import time
 from scapy.all import *
 
-iface = "wlp2s0mon"
-iwconfig_cmd = "/usr/sbin/iwconfig"
+iface = "wlp4s0mon"
+iwconfig_cmd = "/sbin/iwconfig"
 
 # Nr of max probe responses with different ssids from one addr
 max_ssids_per_addr = 5
