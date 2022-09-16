@@ -25,10 +25,10 @@ module can be upgraded by executing pip3 install –upgrade <modulname>.
 
 
 ### example scripts usage (-E for user environment) 
-sudo -E ./sniffer.py
-sudo -E ./arp-poison.py eno1
-sudo -E ./arp-watcher.py eno1
-./reverse-dns-scanner.py 77.87.224.1-77.87.224.254
+$ sudo -E ./sniffer.py
+$ sudo -E ./arp-poison.py eno1
+$ sudo -E ./arp-watcher.py eno1
+$ ./reverse-dns-scanner.py 77.87.224.1-77.87.224.254
 etc.
 
 ### virtualenv example
