@@ -11,7 +11,9 @@ Python 3.8.10
 $ pip3 --version
 pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 
-Note: With pip you can also search for a module.
+Note: pip mini-howto 
+
+With pip you can also search for a module.
 
 $ pip search <modulname>
 
@@ -25,8 +27,7 @@ $ pip3 install -r requirements.txt
 Which modules are outdated reveas the command pip list –outdated. A single
 module can be upgraded by executing pip3 install –upgrade <modulname>.
 
-
-### example scripts usage (-E for user environment) 
+### example scripts usage (-E for user environment: preserve user existing environment variables) 
 $ sudo -E ./sniffer.py
 $ sudo -E ./arp-poison.py eno1
 $ sudo -E ./arp-watcher.py eno1
@@ -40,7 +41,7 @@ $ source python-network-hacks/bin/activate
 (python-network-hacks) $ sudo -E ./sniffer.py
 (python-network-hacks) $ deactivate
 
-### scapy installation
+### scapy installation (arp/dns/etc. spoofing, etc.)
 Ref: https://scapy.readthedocs.io/en/latest/installation.html
 
 $ pip3 install scapy
@@ -69,7 +70,7 @@ $ pip3 install wifi
 ...
 
 ### Adittional packages, not related to python
-$ sudo apt install ettercap-text-only tcpdump wireshark //etc.
+$ sudo apt install ettercap-text-only tcpdump wireshark // etc.
  - ettercap for arp spoofing, sniffing, man-in-the-middle etc.
  - wireshark the best network sniffer
 ```
