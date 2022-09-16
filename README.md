@@ -66,8 +66,17 @@ $ ip a s|grep mon
 48: wlp4s0mon: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
 $ pip3 install wifi
 
-### bluetooth, etc.
+### bluetooth
+$ apt-get install libbluetooth-dev
+$ apt-get install libboost-dev libboost-thread libboost-python-dev
+$ pip3 install PyBluez
+$ pip3 install gattlib
+$ pip3 install PyOBEX
 ...
+
+### etc.
+$ pip3 install tailer
+$ pip3 install google-search
 
 ### Adittional packages, not related to python
 $ sudo apt install ettercap-text-only tcpdump wireshark // etc.
