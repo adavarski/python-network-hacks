@@ -1,4 +1,4 @@
-### Network Hacks - Attack and defense with Python (userfull scripts)
+### Network Hacks - Attack and defense with Python (userful scripts)
 
 ```
 Req: python3 & pip3
