@@ -57,7 +57,6 @@ $ pip3 install impacket pcapy
 $ pip3 install requests
 $ pip3 install beautifulsoup4
 $ pip3 install mitmproxy
-etc.
 
 ### wifi 
 $ sudo apt-get install -y aircrack-ng
@@ -72,7 +71,6 @@ $ apt-get install libboost-dev libboost-thread libboost-python-dev
 $ pip3 install PyBluez
 $ pip3 install gattlib
 $ pip3 install PyOBEX
-...
 
 ### etc.
 $ pip3 install tailer
