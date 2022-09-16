@@ -9,7 +9,7 @@ Python 3.8.10
 $ pip3 --version
 pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 
-### example scripts usage (-E for environment) 
+### example scripts usage (-E for user environment) 
 sudo -E ./sniffer.py
 sudo -E ./arp-poison.py eno1
 sudo -E ./arp-watcher.py eno1
