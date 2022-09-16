@@ -51,7 +51,7 @@ $ pip3 install wifi
 ### bluetooth, etc.
 ...
 
-### pip3 howto
+### pip howto
 
 with pip you can also search for a module.
 
