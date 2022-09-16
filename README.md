@@ -1,7 +1,7 @@
 ```
 Req: python3 & pip3
 
-sudo apt install python3-pip
+$ sudo apt install python3-pip
 
 Check:
 $ python3 --version
