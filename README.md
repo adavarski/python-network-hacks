@@ -1,6 +1,6 @@
 ### Network Hacks - Attack and defense with Python (userful scripts)
 
-Layer 2 attacks
+#### Layer 2 attacks
 - ARP-Cache-Poisoning  
 - ARP-Watcher  
 - MAC-Flooder  
@@ -8,7 +8,7 @@ Layer 2 attacks
 - ARP spoofing over VLAN hopping 
 - DTP abusing.
 
-TCP / IP Tricks 
+#### TCP / IP Tricks 
 - A Simple Sniffer 
 - Reading and Writing PCAP Dump Files
 - Password Sniffer
@@ -21,13 +21,12 @@ TCP / IP Tricks
 - RST Daemon
 - Automatic Hijack Daemon
 
-DNS
+#### DNS
 - DNS Dictionary Mapper
 - Reverse DNS Scanner
 - DNS-Spoofing
 
-HTTP Hacks
-
+#### HTTP Hacks
 - HTTP Header Dumper
 - Referer Spoofing 
 - The Manipulation of Cookies
@@ -41,7 +40,7 @@ HTTP Hacks
 - Proxy Scanner 
 - Proxy Port Scanner
 
-Wifi Fun
+#### Wifi Fun
 - Wifi Scanner
 - Wifi Sniffer
 - Probe-Request Sniffer  
@@ -50,16 +49,23 @@ Wifi Fun
 - Deauth 
 - Wireless Intrusion Detection 
 
-Bluetooth on the Tooth
+#### Bluetooth on the Tooth
 - Bluetooth-Scanner
 - BLE-Scanner 
 - SDP-Browser 
 - RFCOMM-Channel-Scanner
 - Sniffing
 
+#### Additional
+- Spoofing e-mail Sender
+- DHCP Hijack 
+- IP Brute Forcer
+- Google-Hacks-Scanner
+- SMB-Share-Scanner
+- Login Watcher
 
 ```
-Req: python3 & pip3
+REQ: python3 & pip3
 
 $ sudo apt install python3-pip
 
