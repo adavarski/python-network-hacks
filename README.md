@@ -69,6 +69,6 @@ module can be upgraded by executing pip3 install –upgrade <modulname>.
 
 ### Adittional packages, not related to python
 $ sudo apt install ettercap-text-only tcpdump wireshark //etc.
-ettercap for arp spoofing, sniffing, etc.
-wireshark the best sniffer
+ - ettercap for arp spoofing, sniffing, man-in-the-middle etc.
+ - wireshark the best network sniffer
 ```
