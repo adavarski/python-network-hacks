@@ -66,4 +66,9 @@ pip3 install -r requirements.txt
 
 Which modules are outdated reveas the command pip list –outdated. A single
 module can be upgraded by executing pip3 install –upgrade <modulname>.
+
+### Adittional packages, not related to python
+$ sudo apt install ettercap-text-only tcpdump wireshark //etc.
+ettercap for arp spoofing, sniffing, etc.
+wireshark the best sniffer
 ```
