@@ -50,4 +50,16 @@ $ ip a s|grep mon
 
 ### bluetooth, etc.
 
+
+### pip3 howto
+
+With Pip you can also search for a module.
+pip search <modulname>
+To uninstall a module just use the option uninstall. A listing of all installed modules
+and their versions can be achieved with the parameter freeze and later on used to reinstall
+them.
+pip3 freeze > requirements.txt
+pip3 install -r requirements.txt
+Which modules are outdated reveas the command pip list –outdated. A single
+module can be upgraded by executing pip3 install –upgrade <modulname>.
 ```
