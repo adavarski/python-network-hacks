@@ -114,6 +114,18 @@ $( which pip3 ) list | grep scapy
 $ pip3 install --pre scapy[basic]
 $ pip3 install --pre scapy[complete]
 
+$ scapy
+
+The command ls() shows you all available protocols:
+>>> ls()
+
+To get all header options including default values for a protocol just insert the protocols
+name as parameter into the function ls().
+>>> ls(TCP)
+
+The command lsc() can be used to show an overview of all functions and their description.
+>>> lsc()
+
 ### sniffing 
 $ sudo apt-get -y install schedtool libpcap-dev
 $ pip3 install impacket pcapy
