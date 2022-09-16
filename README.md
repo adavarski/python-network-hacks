@@ -49,7 +49,7 @@
 - Deauth 
 - Wireless Intrusion Detection 
 
-#### Bluetooth on the Tooth
+#### Bluetooth
 - Bluetooth-Scanner
 - BLE-Scanner 
 - SDP-Browser 
