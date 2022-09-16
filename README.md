@@ -9,6 +9,21 @@ Python 3.8.10
 $ pip3 --version
 pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
 
+Note: With pip you can also search for a module.
+
+$ pip search <modulname>
+
+To uninstall a module just use the option uninstall. A listing of all installed modules
+and their versions can be achieved with the parameter freeze and later on used to reinstall
+them.
+
+$ pip3 freeze > requirements.txt
+$ pip3 install -r requirements.txt
+
+Which modules are outdated reveas the command pip list –outdated. A single
+module can be upgraded by executing pip3 install –upgrade <modulname>.
+
+
 ### example scripts usage (-E for user environment) 
 sudo -E ./sniffer.py
 sudo -E ./arp-poison.py eno1
@@ -52,20 +67,6 @@ $ pip3 install wifi
 ...
 
 ### pip howto
-
-with pip you can also search for a module.
-
-pip search <modulname>
-
-To uninstall a module just use the option uninstall. A listing of all installed modules
-and their versions can be achieved with the parameter freeze and later on used to reinstall
-them.
-
-pip3 freeze > requirements.txt
-pip3 install -r requirements.txt
-
-Which modules are outdated reveas the command pip list –outdated. A single
-module can be upgraded by executing pip3 install –upgrade <modulname>.
 
 ### Adittional packages, not related to python
 $ sudo apt install ettercap-text-only tcpdump wireshark //etc.
