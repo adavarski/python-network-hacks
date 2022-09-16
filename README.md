@@ -1,5 +1,63 @@
 ### Network Hacks - Attack and defense with Python (userful scripts)
 
+Layer 2 attacks
+- ARP-Cache-Poisoning  
+- ARP-Watcher  
+- MAC-Flooder  
+- VLAN hopping  
+- ARP spoofing over VLAN hopping 
+- DTP abusing.
+
+TCP / IP Tricks 
+- A Simple Sniffer 
+- Reading and Writing PCAP Dump Files
+- Password Sniffer
+- Sniffer Detection
+- IP-Spoofing
+- SYN-Flooder
+- Port-scanning
+- Port-scan Detection
+- ICMP-Redirection
+- RST Daemon
+- Automatic Hijack Daemon
+
+DNS
+- DNS Dictionary Mapper
+- Reverse DNS Scanner
+- DNS-Spoofing
+
+HTTP Hacks
+
+- HTTP Header Dumper
+- Referer Spoofing 
+- The Manipulation of Cookies
+- HTTP-Auth Sniffing 
+- Webserver Scanning
+- SQL Injection 
+- Command Injection 
+- Cross-Site-Scripting
+- SSL / TLS Sniffing
+- Drive-by-Download
+- Proxy Scanner 
+- Proxy Port Scanner
+
+Wifi Fun
+- Wifi Scanner
+- Wifi Sniffer
+- Probe-Request Sniffer  
+- Wifi-Packet-Injection 
+- Playing Wifi Client 
+- Deauth 
+- Wireless Intrusion Detection 
+
+Bluetooth on the Tooth
+- Bluetooth-Scanner
+- BLE-Scanner 
+- SDP-Browser 
+- RFCOMM-Channel-Scanner
+- Sniffing
+
+
 ```
 Req: python3 & pip3
 
